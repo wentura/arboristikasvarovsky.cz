@@ -55,17 +55,17 @@ export default function Hero() {
               <strong>air-spade</strong>.`
             </p>
 
-            <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
+            <div className="flex flex-col gap-8 sm:flex-row sm:justify-center lg:justify-start">
               <a
-                href="#"
-                className="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
+                href="#sluzby"
+                className="inline-block rounded-lg bg-zelena px-16 py-3 text-center text-sm shadow-neutral-400 shadow-lg font-semibold text-white outline-none transition duration-100 hover:shadow-sm hover:shadow-neutral-300 md:text-base"
               >
                 Služby
               </a>
 
               <a
-                href="#"
-                className="inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base"
+                href="#kontakt"
+                className="inline-block rounded-lg bg-cervena px-16 py-3 text-center text-sm font-semibold text-white outline-none transition duration-100 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base"
               >
                 Kontakt
               </a>

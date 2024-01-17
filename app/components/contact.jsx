@@ -7,7 +7,7 @@ export default function Contact() {
       id="kontakt"
     >
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div className="hidden lg:w-2/3 md:w-1/2 bg-white rounded-lg overflow-hidden sm:mr-10 p-10 md:flex items-end justify-start relative">
           <iframe
             width="100%"
             height="100%"
@@ -17,8 +17,8 @@ export default function Contact() {
             marginHeight="0"
             marginWidth="0"
             scrolling="no"
-            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-            style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2535.8081092459893!2d14.601984513909615!3d50.537740271490655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47095d9688f5844b%3A0xd3c9c563ebbb1888!2sKorce%2018%2C%20472%2001%20Dub%C3%A1-Doksy!5e0!3m2!1scs!2scz!4v1705529429367!5m2!1scs!2scz"
+            style={{ filter: "grayscale(0.8) contrast(1) opacity(0.5)" }}
           ></iframe>
         </div>
         <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">

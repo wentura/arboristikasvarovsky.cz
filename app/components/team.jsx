@@ -2,15 +2,15 @@ import React from "react";
 
 export default function Team() {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12" id="tym">
+    <div className="bg-white py-12 sm:py-16 lg:py-24" id="tym">
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <div className="mb-10 md:mb-16">
-          <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
+          <h2 className="mb-4 text-center text-md font-bold text-gray-500 md:mb-6 lg:text-2xl">
             Tým{" "}
           </h2>
 
-          <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-            Jsme certifikovaní arboristé ETW
+          <p className="mx-auto text-2xl sm:text-3xl max-w-screen-xl text-center font-bold text-gray-700 md:text-4xl">
+            Certifikovaní arboristé ETW
           </p>
         </div>
 

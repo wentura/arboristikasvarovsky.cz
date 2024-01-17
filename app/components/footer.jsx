@@ -8,34 +8,28 @@ export default function Footer() {
           {/* nav - start */}
           <nav className="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
             <a
-              href="#"
+              href="/"
               className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
             >
-              About
+              Arboristika Svárovský
             </a>
             <a
-              href="#"
+              href="#sluzby"
               className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
             >
-              Investor Relations
+              služby
             </a>
             <a
-              href="#"
+              href="#tym"
               className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
             >
-              Jobs
+              tým
             </a>
             <a
-              href="#"
+              href="#kontakt"
               className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
             >
-              Press
-            </a>
-            <a
-              href="#"
-              className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-            >
-              Blog
+              kontakt
             </a>
           </nav>
           {/* nav - end */}
@@ -114,7 +108,15 @@ export default function Footer() {
         </div>
 
         <div className="py-8 text-center text-sm text-gray-400">
-          © 2021 - Present Flowrift. All rights reserved.
+          Arboristika Svárovský &copy; 2024,{" "}
+          <a
+            href="https://www.zbyneksvoboda.cz"
+            target="_blank"
+            className="underline underline-offset-4"
+          >
+            vytvořil Zbyněk Svoboda
+          </a>{" "}
+          .
         </div>
       </footer>
     </div>
