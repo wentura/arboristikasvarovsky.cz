@@ -76,7 +76,7 @@ export default function Hero() {
           {/* image - start */}
           <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
             <img
-              src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705567243/arboristikasvarovsky/1_kfjsp6.webp"
               loading="lazy"
               alt="Photo by Fakurian Design"
               className="h-full w-full object-cover object-center"

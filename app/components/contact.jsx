@@ -41,20 +41,17 @@ export default function Contact() {
           <div className="relative mb-4"></div>
           <a
             href="tel:+420777343496"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg my-4 text-center"
+            className="inline-block rounded-lg bg-zelena px-16 py-3 text-center text-sm shadow-neutral-400 shadow-lg font-semibold text-white outline-none transition duration-100 hover:shadow-sm hover:shadow-neutral-300 md:text-base my-4"
           >
             777 34 34 96
           </a>
           <a
             href="mailto:arboristikasvarovsky@gmail.com"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg my-4 text-center"
+            className="inline-block rounded-lg bg-cervena px-16 py-3 text-center text-sm font-semibold text-white outline-none transition duration-100 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base my-4"
           >
             arboristikasvarovsky@gmail.com
           </a>
-          <p className="text-xs text-gray-500 mt-3">
-            Chicharrones blog helvetica normcore iceland tousled brook viral
-            artisan.
-          </p>
+          <p className="text-xs text-gray-500 mt-3"></p>
         </div>
       </div>
     </section>
