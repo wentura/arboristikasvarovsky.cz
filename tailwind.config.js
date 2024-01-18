@@ -14,7 +14,9 @@ module.exports = {
       },
       colors: {
         zelena: "#a8d08d",
+        tmavazelena: "#7fba57",
         cervena: "#b58dd0",
+        tmavacervena: "#ba577f",
       },
     },
   },

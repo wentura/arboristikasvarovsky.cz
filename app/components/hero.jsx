@@ -19,19 +19,19 @@ export default function Hero() {
           <nav className="gap-4 lg:gap-12 flex">
             <a
               href="#sluzby"
-              className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+              className="text-sm md:text-lg md:font-semibold text-gray-600 transition duration-200 hover:text-tmavazelena hover:underline-offset-4 hover:underline active:tmavazelena"
             >
               Služby
             </a>
             <a
               href="#tym"
-              className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+              className="text-sm md:text-lg md:font-semibold text-gray-600 transition duration-200 hover:text-tmavazelena hover:underline-offset-4 hover:underline active:tmavazelena"
             >
               Tým
             </a>
             <a
               href="#kontakt"
-              className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+              className="text-sm md:text-lg md:font-semibold text-gray-600 transition duration-200 hover:text-tmavazelena hover:underline-offset-4 hover:underline active:tmavazelena"
             >
               Kontakt
             </a>
@@ -45,7 +45,7 @@ export default function Hero() {
             <p className="font-semibold md:text-lg xl:text-xl">profesionální</p>
 
             <h1 className="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">
-              ARBORISTIKA SVÁROVSKÝ
+              <span className="text-tmavazelena">ARBORISTIKA</span> SVÁROVSKÝ
             </h1>
 
             <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
@@ -58,14 +58,14 @@ export default function Hero() {
             <div className="flex flex-col gap-8 sm:flex-row sm:justify-center lg:justify-start">
               <a
                 href="#sluzby"
-                className="inline-block rounded-lg bg-zelena px-16 py-3 text-center text-sm shadow-neutral-400 shadow-lg font-semibold text-white outline-none transition duration-100 hover:shadow-sm hover:shadow-neutral-300 md:text-base"
+                className="inline-block rounded-lg bg-zelena px-16 py-3 text-center text-sm shadow-neutral-400 shadow-lg font-semibold text-white outline-none transition duration-300 hover:shadow-sm hover:shadow-neutral-300 hover:bg-tmavazelena md:text-base"
               >
                 Služby
               </a>
 
               <a
                 href="#kontakt"
-                className="inline-block rounded-lg bg-cervena px-16 py-3 text-center text-sm font-semibold text-white outline-none transition duration-100 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base"
+                className="inline-block rounded-lg bg-cervena px-16 py-3 text-center text-sm font-semibold text-white outline-none transition duration-300 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base hover:bg-tmavacervena"
               >
                 Kontakt
               </a>

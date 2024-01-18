@@ -10,7 +10,7 @@ export default function Team() {
           </h2>
 
           <p className="mx-auto text-2xl sm:text-3xl max-w-screen-xl text-center font-bold text-gray-700 md:text-4xl">
-            Certifikovaní arboristé ETW
+            Certifikovaní arboristé <span className="font-extrabold">ETW</span>
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function Team() {
             </div>
 
             <div>
-              <div className="text-center font-bold text-indigo-500 md:text-lg">
+              <div className="text-center font-bold text-neutral-800 md:text-lg">
                 Jan Svárovský
               </div>
               <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base"></p>
@@ -46,7 +46,7 @@ export default function Team() {
             </div>
 
             <div>
-              <div className="text-center font-bold text-indigo-500 md:text-lg">
+              <div className="text-center font-bold text-neutral-800 md:text-lg">
                 Robert Farský
               </div>
               <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base"></p>
@@ -64,7 +64,7 @@ export default function Team() {
             </div>
 
             <div>
-              <div className="text-center font-bold text-indigo-500 md:text-lg">
+              <div className="text-center font-bold text-neutral-800 md:text-lg">
                 David Prokůpek
               </div>
               <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base"></p>
@@ -82,7 +82,7 @@ export default function Team() {
             </div>
 
             <div>
-              <div className="text-center font-bold text-indigo-500 md:text-lg">
+              <div className="text-center font-bold text-neutral-800 md:text-lg">
                 Patrik Nestarec
               </div>
               <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base"></p>
@@ -100,7 +100,7 @@ export default function Team() {
             </div>
 
             <div>
-              <div className="text-center font-bold text-indigo-500 md:text-lg">
+              <div className="text-center font-bold text-neutral-800 md:text-lg">
                 Ferenc Leyluh
               </div>
               <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base"></p>
