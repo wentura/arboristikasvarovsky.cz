@@ -1,3 +1,5 @@
+import Tree from "./tree";
+
 export default function Hero() {
   return (
     <div className="bg-white pb-8 sm:pb-12 lg:pb-24">
@@ -6,9 +8,14 @@ export default function Hero() {
           {/* logo - start */}
           <a
             href="/"
-            className="inline-flex items-center text-xl font-bold text-black"
+            className="inline-flex items-center text-sm md:text-xl font-bold text-black"
             aria-label="logo"
           >
+            <Tree />
+            {/* <img
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705580133/arboristikasvarovsky/reshot-icon-tree-LK3RW8HNJZ_vgdliw.svg"
+              className="h-12"
+            /> */}
             ARBORISTIKA
             <br />
             SVÁROVSKÝ
