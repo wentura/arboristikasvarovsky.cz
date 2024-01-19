@@ -6,12 +6,11 @@ import Team from "./components/team";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Hero />
-
       <Service />
       <Team />
       <Contact />
-    </div>
+    </main>
   );
 }
