@@ -59,7 +59,7 @@ export default function Hero() {
               <strong>Komplexní arboristické služby v korunách stromů</strong>,
               <br />
               máme rádi i undergroud - používáme technologii{" "}
-              <strong>air-spade</strong>.`
+              <strong>air-spade</strong>.
             </p>
 
             <div className="flex flex-col gap-8 sm:flex-row sm:justify-center lg:justify-start">
