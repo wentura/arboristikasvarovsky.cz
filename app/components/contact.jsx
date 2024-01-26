@@ -9,12 +9,12 @@ export default function Contact() {
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="hidden lg:w-2/3 md:w-1/2 bg-white rounded-lg overflow-hidden sm:mr-10 p-10 md:flex items-end justify-start relative">
           {/* <Insta /> */}
-          {/* <img
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705567243/arboristikasvarovsky/3_l37uni.webp"
+          <img
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1706264909/arboristikasvarovsky/fido1_d4zgoa.webp"
             loading="lazy"
             alt="Photo by Fakurian Design"
             className="h-full w-full object-cover object-center rounded-lg shadow-xl shadow-neutral-500"
-          /> */}
+          />
           {/* <iframe
             width="100%"
             height="100%"

@@ -17,7 +17,7 @@ export default function Team() {
         <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-5 lg:gap-x-8 lg:gap-y-12">
           {/* person - start */}
           <div className="flex flex-col items-center">
-            <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
+            <div className="mb-2 h-24 w-24 overflow-hidden rounded-sm bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
               <img
                 src="https://media.istockphoto.com/id/1298261537/cs/vektor/z%C3%A1stupn%C3%BD-symbol-ikony-profilu-pr%C3%A1zdn%C3%A9ho-mu%C5%BEe.jpg?s=1024x1024&w=is&k=20&c=kRhiHFQT7sR122_DwO7RIgN7XoaLq_Twh5l07muOXLI="
                 loading="lazy"
@@ -36,11 +36,11 @@ export default function Team() {
           {/* person - end */}
           {/* person - start */}
           <div className="flex flex-col items-center">
-            <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
+            <div className="mb-2 h-32 w-32 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:mb-4 md:h-40 md:w-40 lg:h-52 lg:w-52">
               <img
-                src="https://media.istockphoto.com/id/1298261537/cs/vektor/z%C3%A1stupn%C3%BD-symbol-ikony-profilu-pr%C3%A1zdn%C3%A9ho-mu%C5%BEe.jpg?s=1024x1024&w=is&k=20&c=kRhiHFQT7sR122_DwO7RIgN7XoaLq_Twh5l07muOXLI="
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1706264909/arboristikasvarovsky/robert1_itzhte.webp"
                 loading="lazy"
-                alt="Photo by Radu Florin"
+                alt="Robert Farský"
                 className="h-full w-full object-cover object-center"
               />
             </div>
