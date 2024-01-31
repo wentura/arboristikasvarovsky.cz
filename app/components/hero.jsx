@@ -65,14 +65,14 @@ export default function Hero() {
             <div className="flex flex-col gap-8 sm:flex-row sm:justify-center lg:justify-start">
               <a
                 href="#sluzby"
-                className="inline-block rounded-lg bg-zelena px-16 py-3 text-center text-sm shadow-neutral-400 shadow-lg font-semibold text-white outline-none transition duration-300 hover:shadow-sm hover:shadow-neutral-300 hover:bg-tmavazelena md:text-base"
+                className="inline-block rounded-lg bg-tmavazelena px-16 py-3 text-center text-sm shadow-neutral-400 shadow-lg font-semibold text-white outline-none transition duration-300 hover:shadow-sm hover:shadow-neutral-300 hover:bg-tmavazelena md:text-base"
               >
                 Služby
               </a>
 
               <a
                 href="#kontakt"
-                className="inline-block rounded-lg bg-cervena px-16 py-3 text-center text-sm font-semibold text-white outline-none transition duration-300 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base hover:bg-tmavacervena"
+                className="inline-block rounded-lg bg-tmavacervena px-16 py-3 text-center text-sm font-semibold text-white outline-none transition duration-300 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base hover:bg-tmavacervena"
               >
                 Kontakt
               </a>
