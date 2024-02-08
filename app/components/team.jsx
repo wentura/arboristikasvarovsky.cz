@@ -13,7 +13,7 @@ export default function Team() {
         </div>
 
         {/* <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:gap-x-8 lg:gap-y-12 "> */}
-        <div className="flex flex-wrap gap-x-12 gap-y-12 md:gap-x-20 justify-center">
+        <div className="flex flex-wrap flex-col sm:flex-row gap-x-16 gap-y-12 justify-center">
           {/* person - start */}
           <div className="flex flex-col items-center">
             <div className="mb-2 h-32 w-32 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-44 md:w-44">
