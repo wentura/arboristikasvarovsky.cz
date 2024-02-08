@@ -116,7 +116,7 @@ export default function Team() {
 
             <div>
               <div className="text-center font-bold text-neutral-800 md:text-lg">
-                Ferenc
+                Ferenc Leyluh
               </div>
               <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base"></p>
             </div>

@@ -7,7 +7,7 @@ export default function Contact() {
       id="kontakt"
     >
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="hidden lg:w-2/3 md:w-1/2 bg-white rounded-lg overflow-hidden sm:mr-10 p-10 md:flex items-end justify-start relative">
+        <div className="hidden  lg:w-2/3 bg-white rounded-lg overflow-hidden sm:mr-10 p-10 lg:flex items-end justify-start relative">
           {/* <Insta /> */}
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705567243/arboristikasvarovsky/3_l37uni.webp"
@@ -28,14 +28,14 @@ export default function Contact() {
             style={{ filter: "grayscale(0.8) contrast(1) opacity(0.5)" }}
           ></iframe> */}
         </div>
-        <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className=" text-xl md:text-2xl lg:text-3xl mb-1 font-extrabold title-font text-center text-tmavazelena ">
+        <div className="lg:w-1/3 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          <h2 className="text-3xl lg:text-2xl mb-1 font-extrabold title-font text-center text-tmavazelena">
             <span className="drop-shadow-lg">ARBORISTIKA SVÁROVSKÝ</span>
           </h2>
-          <p className="leading-relaxed mb-5 text-gray-800 text-center font-bold">
+          <p className="leading-relaxed mb-5 text-gray-800 text-center font-bold text-xl">
             profesionální arboristika
           </p>
-          <div className="relative mb-4 lg:ml-16">
+          <div className="relative mb-4 ml-8 lg:ml-16">
             Jan Svárovský
             <br />
             Korce 18
@@ -44,17 +44,15 @@ export default function Contact() {
             <br />
             IČ: 66994161
           </div>
-          <div className="relative mb-4"></div>
-          <div className="relative mb-4"></div>
           <a
             href="tel:+420777343496"
-            className="inline-block rounded-lg bg-tmavazelena px-16 py-3 text-center text-sm shadow-neutral-400 shadow-lg font-semibold text-white outline-none transition duration-100 hover:shadow-sm hover:shadow-neutral-300 md:text-base my-4"
+            className="inline-block rounded-lg bg-tmavazelena px-16 py-4 text-center text-md shadow-neutral-400 shadow-lg font-semibold text-black transition duration-100 hover:shadow-sm hover:shadow-neutral-300 md:text-base my-4"
           >
             777 34 34 96
           </a>
           <a
             href="mailto:arboristikasvarovsky@gmail.com"
-            className="inline-block rounded-lg bg-tmavacervena px-16 py-3 text-center text-sm font-semibold text-white outline-none transition duration-100 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base my-4"
+            className="inline-block rounded-lg bg-tmavacervena py-4 text-center text-md font-semibold text-white  transition duration-100 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base my-4"
           >
             arboristikasvarovsky@gmail.com
           </a>

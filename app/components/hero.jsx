@@ -11,7 +11,7 @@ export default function Hero() {
             className="inline-flex items-center text-sm md:text-xl font-bold text-black"
             aria-label="logo"
           >
-            <Tree />
+            {/* <Tree /> */}
             {/* <img
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705580133/arboristikasvarovsky/reshot-icon-tree-LK3RW8HNJZ_vgdliw.svg"
               className="h-12"
@@ -62,13 +62,14 @@ export default function Hero() {
             <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-6xl">
               <span className="text-tmavazelena">ARBORISTIKA</span> SVÁROVSKÝ
             </h1>
-            <p className="mb-8 md:mb-12 font-semibold md:text-lg xl:text-xl">
+            <p className="mb-8 md:mb-12 font-semibold text-xl xl:text-2xl">
               profesionální arboristika
             </p>
 
             <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
               <strong>
-                Provádíme komplexní arboristické služby v korunách stromů a na
+                Provádíme komplexní arboristické služby v korunách stromů,
+                <br className="hidden md:inline-block lg:hidden" /> na
                 underground používáme technologii air-spade
               </strong>
             </p>
@@ -76,14 +77,14 @@ export default function Hero() {
             <div className="flex flex-col gap-8 sm:flex-row sm:justify-center lg:justify-start">
               <a
                 href="#sluzby"
-                className="inline-block rounded-lg bg-tmavazelena px-16 py-3 text-center text-sm shadow-neutral-400 shadow-lg font-semibold text-white outline-none transition duration-300 hover:shadow-sm hover:shadow-neutral-300 hover:bg-tmavazelena md:text-base"
+                className="inline-block rounded-lg bg-tmavazelena px-16 py-4 text-center text-md shadow-neutral-400 shadow-lg font-semibold text-black outline-none transition duration-300 hover:shadow-sm hover:shadow-neutral-300 hover:bg-tmavazelena md:text-base"
               >
                 Služby
               </a>
 
               <a
                 href="#kontakt"
-                className="inline-block rounded-lg bg-tmavacervena px-16 py-3 text-center text-sm font-semibold text-white outline-none transition duration-300 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base hover:bg-tmavacervena"
+                className="inline-block rounded-lg bg-tmavacervena px-16 py-4 text-center text-md font-semibold text-white outline-none transition duration-300 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base hover:bg-tmavacervena"
               >
                 Kontakt
               </a>
@@ -92,7 +93,7 @@ export default function Hero() {
           {/* content - end */}
 
           {/* image - start */}
-          <div className="min-h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-2/3">
+          <div className="min-h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-2/3 mt-8 md:mt-0">
             <img
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707405863/arboristikasvarovsky/fido_contact.jpg.jpeg_hsxva1.webp"
               loading="lazy"

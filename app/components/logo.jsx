@@ -9,12 +9,12 @@ export default function Logo() {
         <div className="flex flex-wrap md:justify-evenly justify-center gap-8 md:gap-18">
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707407058/arboristikasvarovsky/szkt_logo_2021_cuwen7.png"
-            className="max-w-96 object-contain"
+            className="max-w-80 md:max-w-96 object-contain"
           />
 
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707407058/arboristikasvarovsky/logo_SPOD_ISA_grn_jndyev.png"
-            className="max-w-96 object-contain"
+            className="max-w-80 md:max-w-96 object-contain"
           />
 
           <img

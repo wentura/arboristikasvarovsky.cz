@@ -17,7 +17,7 @@ module.exports = {
         tmavazelena: "#A9D08E",
         tmavazelena1: "#7fba57",
         cervena: "#B58ED0",
-        tmavacervena: "#B58ED0",
+        tmavacervena: "#95635f",
         tmavacervena1: "#ba577f",
       },
     },
