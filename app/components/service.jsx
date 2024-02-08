@@ -20,20 +20,6 @@ export default function Service() {
           {/* feature - start */}
           <div className="flex flex-col items-center">
             <h3 className="mb-2 text-center text-xl md:text-3xl text-tmavacervena font-extrabold">
-              Kácíme bezpečně
-            </h3>
-            <p className="mb-2 text-center text-gray-500">
-              Rizikové kácení <span className="underline">neprovádíme</span>
-              <br />
-              Kácíme{" "}
-              <span className="font-bold">bezpečně i havarijní stromy</span>
-            </p>
-          </div>
-          {/* feature - end */}
-
-          {/* feature - start */}
-          <div className="flex flex-col items-center">
-            <h3 className="mb-2 text-center text-xl md:text-3xl text-tmavacervena font-extrabold">
               Řezy
             </h3>
             <p className="mb-2 text-center text-gray-500 ">
@@ -45,6 +31,20 @@ export default function Service() {
             </p>
           </div>
           {/* feature - end */}
+          {/* feature - start */}
+          <div className="flex flex-col items-center">
+            <h3 className="mb-2 text-center text-xl md:text-3xl text-tmavacervena font-extrabold">
+              Kácíme bezpečně
+            </h3>
+            <p className="mb-2 text-center text-gray-500">
+              Rizikové kácení <span className="underline">neprovádíme</span>
+              <br />
+              Kácíme{" "}
+              <span className="font-bold">bezpečně i havarijní stromy</span>
+            </p>
+          </div>
+          {/* feature - end */}
+
           {/* feature - start */}
           <div className="flex flex-col items-center">
             <h3 className="mb-2 text-center text-xl md:text-3xl text-tmavacervena font-extrabold">
