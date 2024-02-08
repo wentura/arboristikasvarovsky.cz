@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import Contact from "./components/contact";
 import Hero from "./components/hero";
 import Logo from "./components/logo";

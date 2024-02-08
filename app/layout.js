@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Footer from "./components/footer";
+import Matomo from "./components/matomo";
 import "./globals.css";
 
 export const metadata = {
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className="container mx-auto bg-white">
         {children}
         <Footer />
+        <Matomo />
       </body>
     </html>
   );
