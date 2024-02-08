@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="hidden lg:w-2/3 md:w-1/2 bg-white rounded-lg overflow-hidden sm:mr-10 p-10 md:flex items-end justify-start relative">
           {/* <Insta /> */}
           <img
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1706264909/arboristikasvarovsky/fido1_d4zgoa.webp"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705567243/arboristikasvarovsky/3_l37uni.webp"
             loading="lazy"
             alt="Photo by Fakurian Design"
             className="h-full w-full object-cover object-center rounded-lg shadow-xl shadow-neutral-500"
@@ -33,7 +33,7 @@ export default function Contact() {
             <span className="drop-shadow-lg">ARBORISTIKA SVÁROVSKÝ</span>
           </h2>
           <p className="leading-relaxed mb-5 text-gray-800 text-center font-bold">
-            Profesionální arboristika s certifikací ETW
+            profesionální arboristika
           </p>
           <div className="relative mb-4 lg:ml-16">
             Jan Svárovský
@@ -58,7 +58,9 @@ export default function Contact() {
           >
             arboristikasvarovsky@gmail.com
           </a>
-          <p className="text-xs text-gray-500 mt-3"></p>
+          <div className="mt-12 flex justify-center">
+            <Insta />
+          </div>
         </div>
       </div>
     </section>

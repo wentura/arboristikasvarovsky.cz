@@ -1,5 +1,5 @@
+import Insta from "./insta";
 import Tree from "./tree";
-
 export default function Hero() {
   return (
     <div className="bg-white pb-8 sm:pb-12 lg:pb-24">
@@ -25,12 +25,6 @@ export default function Hero() {
           {/* nav - start */}
           <nav className="gap-4 lg:gap-12 flex">
             <a
-              href="#sluzby"
-              className="text-sm md:text-lg md:font-semibold text-gray-600 transition duration-200 hover:text-tmavazelena hover:underline-offset-4 hover:underline active:tmavazelena"
-            >
-              Služby
-            </a>
-            <a
               href="#tym"
               className="text-sm md:text-lg md:font-semibold text-gray-600 transition duration-200 hover:text-tmavazelena hover:underline-offset-4 hover:underline active:tmavazelena"
             >
@@ -42,6 +36,22 @@ export default function Hero() {
             >
               Kontakt
             </a>
+            <a
+              href="https://www.instagram.com/arboristikasvarovsky/"
+              target="_blank"
+              className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+            >
+              <svg
+                className="h-6 w-6"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="#000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
           </nav>
           {/* nav - end */}
         </header>
@@ -49,17 +59,18 @@ export default function Hero() {
         <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
           {/* content - start */}
           <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-            <p className="font-semibold md:text-lg xl:text-xl">profesionální</p>
-
-            <h1 className="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">
+            <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-6xl">
               <span className="text-tmavazelena">ARBORISTIKA</span> SVÁROVSKÝ
             </h1>
+            <p className="mb-8 md:mb-12 font-semibold md:text-lg xl:text-xl">
+              profesionální arboristika
+            </p>
 
             <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
-              <strong>Komplexní arboristické služby v korunách stromů</strong>,
-              <br />
-              máme rádi i undergroud - používáme technologii{" "}
-              <strong>air-spade</strong>.
+              <strong>
+                Provádíme komplexní arboristické služby v korunách stromů a na
+                underground používáme technologii air-spade
+              </strong>
             </p>
 
             <div className="flex flex-col gap-8 sm:flex-row sm:justify-center lg:justify-start">
@@ -81,9 +92,9 @@ export default function Hero() {
           {/* content - end */}
 
           {/* image - start */}
-          <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
+          <div className="min-h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-2/3">
             <img
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705567243/arboristikasvarovsky/1_kfjsp6.webp"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707405863/arboristikasvarovsky/fido_contact.jpg.jpeg_hsxva1.webp"
               loading="lazy"
               alt="Photo by Fakurian Design"
               className="h-full w-full object-cover object-center"

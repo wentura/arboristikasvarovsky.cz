@@ -13,12 +13,12 @@ export default function Footer() {
             >
               Arboristika Svárovský
             </a>
-            <a
+            {/* <a
               href="#sluzby"
               className="text-gray-500 transition duration-100 hover:text-gray-800"
             >
               služby
-            </a>
+            </a> */}
             <a
               href="#tym"
               className="text-gray-500 transition duration-100 hover:text-gray-800"
