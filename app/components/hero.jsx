@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="bg-white pb-8 sm:pb-12 lg:pb-24">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-        <header className="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
+        <header className="mb-2 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
           {/* logo - start */}
           <a
             href="/"
@@ -24,6 +24,12 @@ export default function Hero() {
 
           {/* nav - start */}
           <nav className="gap-4 lg:gap-12 flex">
+            <a
+              href="#sluzby"
+              className="block md:hidden text-sm md:text-lg md:font-semibold text-gray-600 transition duration-200 hover:text-tmavazelena hover:underline-offset-4 hover:underline active:tmavazelena"
+            >
+              Služby
+            </a>
             <a
               href="#tym"
               className="text-sm md:text-lg md:font-semibold text-gray-600 transition duration-200 hover:text-tmavazelena hover:underline-offset-4 hover:underline active:tmavazelena"
@@ -56,28 +62,29 @@ export default function Hero() {
           {/* nav - end */}
         </header>
 
-        <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
+        <section className="flex flex-col-reverse justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
           {/* content - start */}
           <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
             <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-6xl">
               <span className="text-tmavazelena">ARBORISTIKA</span> SVÁROVSKÝ
             </h1>
             <p className="mb-8 md:mb-12 font-semibold text-xl xl:text-2xl">
-              profesionální arboristika
+              profesionální péče o dřeviny
             </p>
 
             <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
               <strong>
+                {/* Všechny typy řezů dřevin, kácíme bezpečně i havarijní stromy... */}
                 Provádíme komplexní arboristické služby v korunách stromů,
                 <br className="hidden md:inline-block lg:hidden" /> na
                 underground používáme technologii air-spade
               </strong>
             </p>
 
-            <div className="flex flex-col gap-8 sm:flex-row sm:justify-center lg:justify-start">
+            <div className=" flex-col gap-8 sm:flex-row sm:justify-center lg:justify-start hidden md:flex">
               <a
                 href="#sluzby"
-                className="inline-block rounded-lg bg-tmavazelena px-16 py-4 text-center text-md shadow-neutral-400 shadow-lg font-semibold text-black outline-none transition duration-300 hover:shadow-sm hover:shadow-neutral-300 hover:bg-tmavazelena md:text-base"
+                className="hidden inline-block rounded-lg bg-tmavazelena px-16 py-4 text-center text-md shadow-neutral-400 shadow-lg font-semibold text-black outline-none transition duration-300 hover:shadow-sm hover:shadow-neutral-300 hover:bg-tmavazelena md:text-base"
               >
                 Služby
               </a>
@@ -86,14 +93,14 @@ export default function Hero() {
                 href="#kontakt"
                 className="inline-block rounded-lg bg-tmavacervena px-16 py-4 text-center text-md font-semibold text-white outline-none transition duration-300 shadow-neutral-400 shadow-lg hover:shadow-sm hover:shadow-neutral-300 md:text-base hover:bg-tmavacervena"
               >
-                Kontakt
+                objednat naše služby
               </a>
             </div>
           </div>
           {/* content - end */}
 
           {/* image - start */}
-          <div className="min-h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-2/3 mt-8 md:mt-0">
+          <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-2/3 md:mt-0">
             <img
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707405863/arboristikasvarovsky/fido_contact.jpg.jpeg_hsxva1.webp"
               loading="lazy"
