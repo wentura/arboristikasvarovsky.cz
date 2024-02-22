@@ -18,7 +18,7 @@ export default function Team() {
           <div className="flex flex-col items-center">
             <div className="mb-2 h-32 w-32 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-44 md:w-44">
               <img
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708620973/arboristikasvarovsky/fido.jpeg_vgbtgo.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708621807/arboristikasvarovsky/fido.jpeg_vgbtgo.jpeg_wpuofv.webp"
                 loading="lazy"
                 alt="Photo by Radu Florin"
                 className="h-full w-full object-cover object-center"
@@ -41,7 +41,7 @@ export default function Team() {
           <div className="flex flex-col items-center">
             <div className="mb-2 h-32 w-32 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-44 md:w-44">
               <img
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1706264909/arboristikasvarovsky/robert1_itzhte.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708621808/arboristikasvarovsky/robert1_itzhte_fdlnzf.webp"
                 loading="lazy"
                 alt="Robert Farský"
                 className="h-full w-full object-cover object-center"
@@ -63,7 +63,7 @@ export default function Team() {
           <div className="flex flex-col items-center">
             <div className="mb-2 h-32 w-32 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-44 md:w-44">
               <img
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708620973/arboristikasvarovsky/david2.jpeg_b4vaua.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708621807/arboristikasvarovsky/david2.jpeg_b4vaua.jpeg_lcqsgx.webp"
                 loading="lazy"
                 alt="Photo by Radu Florin"
                 className="h-full w-full object-cover object-center"
@@ -85,7 +85,7 @@ export default function Team() {
           <div className="flex flex-col items-center">
             <div className="mb-2 h-32 w-32 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-44 md:w-44">
               <img
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707405863/arboristikasvarovsky/patrik3.jpg.jpeg_n3hgkx.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708621808/arboristikasvarovsky/patrik3.jpg.jpeg_n3hgkx.jpeg_lswxde.webp"
                 loading="lazy"
                 alt="Photo by Radu Florin"
                 className="h-full w-full object-cover object-center"
@@ -107,7 +107,7 @@ export default function Team() {
           <div className="flex flex-col items-center">
             <div className="mb-2 h-32 w-32 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-44 md:w-44">
               <img
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707405863/arboristikasvarovsky/ferenc.jpg.jpeg_vrnjfx.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708621807/arboristikasvarovsky/ferenc.jpg.jpeg_vrnjfx.jpeg_ohpapc.webp"
                 loading="lazy"
                 alt="Photo by Radu Florin"
                 className="h-full w-full object-cover object-center"
