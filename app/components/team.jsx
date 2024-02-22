@@ -18,7 +18,7 @@ export default function Team() {
           <div className="flex flex-col items-center">
             <div className="mb-2 h-32 w-32 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-44 md:w-44">
               <img
-                src="https://media.istockphoto.com/id/1298261537/cs/vektor/z%C3%A1stupn%C3%BD-symbol-ikony-profilu-pr%C3%A1zdn%C3%A9ho-mu%C5%BEe.jpg?s=1024x1024&w=is&k=20&c=kRhiHFQT7sR122_DwO7RIgN7XoaLq_Twh5l07muOXLI="
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708620973/arboristikasvarovsky/fido.jpeg_vgbtgo.webp"
                 loading="lazy"
                 alt="Photo by Radu Florin"
                 className="h-full w-full object-cover object-center"
@@ -63,7 +63,7 @@ export default function Team() {
           <div className="flex flex-col items-center">
             <div className="mb-2 h-32 w-32 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-44 md:w-44">
               <img
-                src="https://media.istockphoto.com/id/1298261537/cs/vektor/z%C3%A1stupn%C3%BD-symbol-ikony-profilu-pr%C3%A1zdn%C3%A9ho-mu%C5%BEe.jpg?s=1024x1024&w=is&k=20&c=kRhiHFQT7sR122_DwO7RIgN7XoaLq_Twh5l07muOXLI="
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708620973/arboristikasvarovsky/david2.jpeg_b4vaua.webp"
                 loading="lazy"
                 alt="Photo by Radu Florin"
                 className="h-full w-full object-cover object-center"
