@@ -1,7 +1,7 @@
 export default function Tree() {
   return (
     <div className="h-12 w-12">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+      <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 64 64">
         <g data-name="15-tree">
           <path
             fill="#008f57"
