@@ -103,7 +103,7 @@ export default function Hero() {
           <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-2/3 md:mt-0">
             <img
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707405863/arboristikasvarovsky/fido_contact.jpg.jpeg_hsxva1.webp"
-              loading="lazy"
+              loading=""
               alt="Photo by Fakurian Design"
               className="h-full w-full object-cover object-center"
             />
