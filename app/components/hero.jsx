@@ -4,29 +4,20 @@ export default function Hero() {
   return (
     <div className="bg-white pb-8 sm:pb-12 lg:pb-24">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-        <header className="mb-2 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
-          {/* logo - start */}
+        <header className="mb-2 flex items-center lg:justify-between justify-end py-4 md:mb-12 md:py-8 xl:mb-16">
           <a
             href="/"
-            className="inline-flex items-center text-sm md:text-xl font-bold text-black"
+            className="hidden items-center text-sm md:text-xl font-bold text-black lg:inline-flex"
             aria-label="logo"
           >
-            {/* <Tree /> */}
-            {/* <img
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705580133/arboristikasvarovsky/reshot-icon-tree-LK3RW8HNJZ_vgdliw.svg"
-              className="h-12"
-            /> */}
             ARBORISTIKA
             <br />
             SVÁROVSKÝ
           </a>
-          {/* logo - end */}
-
-          {/* nav - start */}
           <nav className="gap-4 lg:gap-12 flex">
             <a
               href="#sluzby"
-              className="block md:hidden text-sm md:text-lg md:font-semibold text-gray-600 transition duration-200 hover:text-tmavazelena hover:underline-offset-4 hover:underline active:tmavazelena"
+              className="block text-sm md:text-lg md:font-semibold text-gray-600 transition duration-200 hover:text-tmavazelena hover:underline-offset-4 hover:underline active:tmavazelena"
             >
               Služby
             </a>
@@ -65,13 +56,14 @@ export default function Hero() {
         <section className="flex flex-col-reverse justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
           {/* content - start */}
           <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-            <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-6xl">
-              <span className="text-tmavazelena">ARBORISTIKA</span> SVÁROVSKÝ
-            </h1>
-            <p className="mb-8 md:mb-12 font-semibold text-xl xl:text-2xl">
-              profesionální péče o dřeviny
-            </p>
-
+            <div className="hidden lg:block">
+              <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-6xl">
+                <span className="text-tmavazelena">ARBORISTIKA</span> SVÁROVSKÝ
+              </h1>
+              <p className="mb-8 md:mb-12 font-semibold text-xl xl:text-2xl">
+                profesionální péče o dřeviny
+              </p>
+            </div>
             <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
               <strong>
                 {/* Všechny typy řezů dřevin, kácíme bezpečně i havarijní stromy... */}
@@ -109,6 +101,14 @@ export default function Hero() {
             />
           </div>
           {/* image - end */}
+          <div className="block mx-auto lg:hidden">
+            <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-6xl text-center">
+              <span className="text-tmavazelena">ARBORISTIKA</span> SVÁROVSKÝ
+            </h1>
+            <p className="font-semibold text-xl xl:text-2xl text-center">
+              profesionální péče o dřeviny
+            </p>
+          </div>
         </section>
       </div>
     </div>
