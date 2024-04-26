@@ -96,7 +96,7 @@ export default function Hero() {
             <img
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707405863/arboristikasvarovsky/fido_contact.jpg.jpeg_hsxva1.webp"
               loading=""
-              alt="Photo by Fakurian Design"
+              alt="arboristické služby Svárovský - Jan Svárovský v korunách stromů"
               className="h-full w-full object-cover object-center"
             />
           </div>

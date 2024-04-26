@@ -10,21 +10,25 @@ export default function Logo() {
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707407058/arboristikasvarovsky/szkt_logo_2021_cuwen7.png"
             className="max-w-80 md:max-w-96 object-contain"
+            alt="arboristika Svárovský"
           />
 
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707407058/arboristikasvarovsky/logo_SPOD_ISA_grn_jndyev.png"
             className="max-w-80 md:max-w-96 object-contain"
+            alt="arboristika Svárovský"
           />
 
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707407057/arboristikasvarovsky/ISA_logo_web_imzywm.jpg"
             className="max-w-40 object-contain"
+            alt="arboristika Svárovský"
           />
 
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707407057/arboristikasvarovsky/1261_certifikace-etw-a-etw-platform_viztx5.jpg"
             className="max-w-36 object-contain"
+            alt="arboristika Svárovský"
           />
         </div>
       </div>

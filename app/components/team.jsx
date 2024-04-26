@@ -20,7 +20,7 @@ export default function Team() {
               <img
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708621807/arboristikasvarovsky/fido.jpeg_vgbtgo.jpeg_wpuofv.webp"
                 loading="lazy"
-                alt="Photo by Radu Florin"
+                alt="Jan Svárovský, profilová fotografie"
                 className="h-full w-full object-cover object-center"
               />
             </div>
@@ -43,7 +43,7 @@ export default function Team() {
               <img
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708621808/arboristikasvarovsky/robert1_itzhte_fdlnzf.webp"
                 loading="lazy"
-                alt="Robert Farský"
+                alt="Robert Farský, profilová fotografie"
                 className="h-full w-full object-cover object-center"
               />
             </div>
@@ -65,7 +65,7 @@ export default function Team() {
               <img
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708621807/arboristikasvarovsky/david2.jpeg_b4vaua.jpeg_lcqsgx.webp"
                 loading="lazy"
-                alt="Photo by Radu Florin"
+                alt="David Prokůpek, profilová fotografie"
                 className="h-full w-full object-cover object-center"
               />
             </div>
@@ -87,7 +87,7 @@ export default function Team() {
               <img
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708621808/arboristikasvarovsky/patrik3.jpg.jpeg_n3hgkx.jpeg_lswxde.webp"
                 loading="lazy"
-                alt="Photo by Radu Florin"
+                alt="Patrik Nestarec, profilová fotografie"
                 className="h-full w-full object-cover object-center"
               />
             </div>
@@ -109,7 +109,7 @@ export default function Team() {
               <img
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1708621807/arboristikasvarovsky/ferenc.jpg.jpeg_vrnjfx.jpeg_ohpapc.webp"
                 loading="lazy"
-                alt="Photo by Radu Florin"
+                alt="Ferenc Leyluh, profilová fotografie"
                 className="h-full w-full object-cover object-center"
               />
             </div>
