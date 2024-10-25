@@ -36,13 +36,13 @@ export default function Contact() {
             profesionální arboristika
           </p>
           <div className="relative mb-4 ml-8 lg:ml-16">
-            Jan Svárovský
+            ARBORISTIKA SVÁROVSKÝ s.r.o.
             <br />
             Korce 18
             <br />
             472 01 Dubá
             <br />
-            IČ: 66994161
+            IČ: 21643989
           </div>
           <a
             href="tel:+420777343496"
