@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
 
         <div className="py-8 text-center text-sm text-gray-400">
-          Arboristika Svárovský &copy; 2024,{" "}
+          Arboristika Svárovský &copy;,{" "}
           <br className="inline-block md:hidden" />
           <a
             href="https://www.zbyneksvoboda.cz"
